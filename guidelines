@@ -1,74 +1,10 @@
 
 
-An Organisation in GitHub is a collection of repositories where the
-owner(s) can manage access to these repositories[MDW1] .
-An Organisation’s namechange should be avoided.  [MDW2]  Doing so
-has  downstream impacts to other
-integrated components, like Artifactory, Vault, etc. Updating Organisation ownership and team structure is fairly straight
-forward.
-Sr. TSM owns 1-N Products.
-1-N Products can live in an Organisation,
-but all Repositories[MDW3]  for a
-single Product
-[MDW4] will be tied
-to the same Organisation.
-
-
-
- [MDW1]Access
-Groups?  Like using LDAP access
-groups?  We haven’t done this but I
-suppose we could offer that up.
-
-
-
-
-
-
-
-
-
-
-
-
- [MDW2]Owners
-of an Org I believe can actually change the name of an Org.  I don’t believe there is any way to stop
-this.
-
-
-
-
-
-
-
-
-
-
-
-
- [MDW3]May
-need some clarification here about Shared Libraries and/or Services??
-
-
-
-
-
-
-
-
-
-
-
-
- [MDW4]TCO
-is moving towards the use of the word PRODUCT versus Application??  Michele Levin posted the change from
+An Organisation in GitHub is a collection of repositories where the owner(s) can manage access to these repositories.
+An Organisation’s namechange should be avoided. Doing so has  downstream impacts to other integrated components, like Artifactory, Vault, etc. Updating Organisation ownership and team structure is fairly straight  forward. Sr. TSM owns 1-N Products.  1-N Products can live in an Organisation, but all Repositories for a single Product will be tied to the same Organisation. 
+ 
+TCO is moving towards the use of the word PRODUCT versus Application??  Michele Levin posted the change from
 Application Inventory to Product Catalogue.
-
-
-
-
-
-
 
 
 
